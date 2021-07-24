@@ -13,6 +13,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    image: node: 14.0.0
+
     strategy:
       matrix:
         node-version: [14.x]
